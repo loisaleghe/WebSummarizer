@@ -1,0 +1,7 @@
+The content appears to be a website for the Public Health Informatics Institute (PHII). The website includes information about the organization, its team, impact, and what they do in terms of advancing health outcomes worldwide using data. It also contains resources, news, and highlights about their work, such as data modernization planning toolkit and TEDxEmory talk by PHII's director.
+
+The website emphasizes the importance of informatics in improving public health practice, establishing partnerships, and providing guidance on using data effectively. It also mentions their funders, provides a contact form for email updates, and includes links to terms of use, privacy policy, careers, and a sitemap.
+
+The website includes various scripts, possibly related to tracking, tooltips, lazy loading of images, and other functionalities. The website is designed using Elementor, Elementor Pro, and Elementor Extras plugins for WordPress.
+
+Overall, the content showcases the organization's efforts in utilizing data and technology to enhance public health outcomes and provide valuable resources and information for health departments and professionals.

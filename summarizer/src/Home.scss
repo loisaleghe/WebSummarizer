@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap");
+
+body {
+  background-color: #ffe4c4;
+  position: relative;
+  min-height: 100vh;
+}
+
+.summarizer-header {
+  font-size: 90px;
+  font-weight: 600;
+  font-family: "Mystery Quest", cursive;
+  color: #c3b1e1;
+  text-shadow: 2px 2px 0px #957dad, 4px 4px 0px #ee4b2b, 6px 6px 0px #00c2cb,
+    8px 8px 0px #ff7f50, 10px 10px 0px #553c9a;
+}
+
+.summarizer-btn {
+  background-color: #c3b1e1;
+}
+
+.smilingGirl {
+  width: 130px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: float 6s ease-in-out infinite;
+}
+
+.screenGirl {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  animation: float 6s ease-in-out infinite;
+}
+
+.ant-spin-dot {
+  color: #c3b1e1;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@media (max-width: 853px){
+    .screenGirl{
+        z-index: 0;
+    }
+
+    .center-content {
+        position: relative; 
+        z-index: 1;
+      }
+}
+
+@media (max-width: 540px) {
+  body {
+    position: relative;
+    min-height: 100vh; 
+  }
+  .summarizerDiv {
+    margin-top: 95px;
+  }
+  .summarizer-header {
+    font-size: 50px;
+  }
+  .smilingGirl {
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .screenGirl {
+    // position: relative;
+    // top: 30px;
+    // right: 0 !important;
+    // left: auto !important;
+    // margin-left: auto;
+    // margin-right: 0;
+    // z-index: 0;
+    // display:block;
+    // animation: float 6s ease-in-out infinite;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    z-index: 0;
+    display: block;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .center-content {
+    position: relative; 
+    z-index: 1;
+  }
+}
+
+
