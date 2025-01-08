@@ -76,7 +76,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const { styles } = useStyle();
-  const url = "http://localhost:3001";
+  const url = "https://websummarizer-backend.onrender.com";
   /**
    *  summarizePage is how we connect to the backend and send the url 
    *  to the endpoint: localhost:3001/summarize
