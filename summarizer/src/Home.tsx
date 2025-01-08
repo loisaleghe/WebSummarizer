@@ -76,7 +76,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const { styles } = useStyle();
-
+  const url = "http://localhost:3001";
   /**
    *  summarizePage is how we connect to the backend and send the url 
    *  to the endpoint: localhost:3001/summarize
@@ -92,7 +92,7 @@ const Home = () => {
       };
 
       const response = await fetch(
-        "http://localhost:3001/summarize",
+        `${url}/summarize`,
         requestOptions
       ); // get request
 
@@ -130,7 +130,7 @@ const Home = () => {
       };
 
       const response = await fetch(
-        "http://localhost:3001/answerQuestion",
+        `${url}/answerQuestion`,
         requestOptions
       ); // get request
 

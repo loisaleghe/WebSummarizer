@@ -1,7 +1,7 @@
-The content provided is a mix of JavaScript code snippets and HTML elements. Initially, there is a dark mode script that checks for a specific post slug and retrieves the theme preference from cookies to apply dark mode if required. 
+The script provided is a snippet of code that implements dark mode functionality on a webpage. The script checks for the theme set by the user via cookie, then applies a dark mode style to the webpage's body element. Additionally, the script includes functions to focus on the search bar and conditionally remove a slider element based on the post slug.
 
-Following that, there are various CSS classes defined for styling purposes, including spinner animation, badge elements, and media queries for responsiveness. The JavaScript code also includes a function to retrieve cookies based on the cookie name.
+Furthermore, the script contains CSS styles for spinners and various HTML elements on the page, including badges and article viewer layouts. It also includes functions to retrieve and manipulate cookies.
 
-Furthermore, there is code related to displaying an "Open In App" banner based on certain conditions like device orientation and browser type. Lastly, there are JSON objects containing company and category tags, along with article information such as the title and last updated date.
+Lastly, the script contains logic to determine whether to display an "Open in App" link based on device orientation and user consent values. The script also defines CSS styles for the "Open in App" link.
 
-Overall, the content consists of code snippets related to theme handling, CSS classes for styling, and JavaScript functions for cookie handling and banner display, along with JSON data for tags and article information.
+Overall, the script combines JavaScript functions, CSS styles, and HTML elements to implement dark mode and other dynamic functionalities on a webpage.
