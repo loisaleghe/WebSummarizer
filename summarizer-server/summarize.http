@@ -1,0 +1,15 @@
+POST http://localhost:3001/summarize
+Content-Type: application/json
+
+{
+    "url": "https://www.geeksforgeeks.org/how-asynchronous-javascript-code-gets-executed-in-browser/?ref=oin_asr10"
+}
+
+### 
+
+POST http://localhost:3001/answerQuestion
+Content-Type: application/json
+
+{
+    "question": "How does the code ensure the dark mode theme is applied based on a user's cookie preference"
+}

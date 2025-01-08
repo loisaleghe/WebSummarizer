@@ -1,3 +1,7 @@
-The content includes a dark mode script that checks for a specific post slug and sets a dark mode for the webpage accordingly, as well as a function to focus on the search bar. Additionally, there are CSS styling rules for spinner animation and badge display on the webpage. The script also contains media queries for different screen sizes to adjust the layout of the content accordingly.
+The content provided is a mix of JavaScript code snippets and HTML elements. Initially, there is a dark mode script that checks for a specific post slug and retrieves the theme preference from cookies to apply dark mode if required. 
 
-Furthermore, there are functions to handle cookies and check for user agents like iOS, Safari, and Mozilla for displaying elements based on certain conditions. There is also a section for displaying an open-in-app banner under specific circumstances. Finally, there is data provided within JSON arrays for company tags and category tags in the content. The document also references a tutorial on the curl command in Linux with examples.
+Following that, there are various CSS classes defined for styling purposes, including spinner animation, badge elements, and media queries for responsiveness. The JavaScript code also includes a function to retrieve cookies based on the cookie name.
+
+Furthermore, there is code related to displaying an "Open In App" banner based on certain conditions like device orientation and browser type. Lastly, there are JSON objects containing company and category tags, along with article information such as the title and last updated date.
+
+Overall, the content consists of code snippets related to theme handling, CSS classes for styling, and JavaScript functions for cookie handling and banner display, along with JSON data for tags and article information.
