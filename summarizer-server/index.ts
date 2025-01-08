@@ -9,7 +9,7 @@ dotenv.config();
 const app = express(); // create express API server
 app.use(express.json()); // app.use(...) "middleware"
 app.use(cors());
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 const url = "https://en.wikipedia.org/wiki/Artificial_intelligence";
 const openaiApiKey = process.env.OPENAI_API_KEY;
