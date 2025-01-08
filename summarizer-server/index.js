@@ -44,7 +44,7 @@ app.post("/summarize", async (req, res) => {
   
         const contentArr = content.split(" ");
         let newContent = "";
-        const contentLength = Math.min(5000, contentArr.length);
+        const contentLength = Math.min(10000, contentArr.length);
         for (let i = 0; i < contentLength; i++) {
           if (i == 0) {
             newContent = contentArr[i];
